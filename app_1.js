@@ -42,7 +42,7 @@ function generarNumeroSecreto() {
     //console.log(listaNumeroSorteados);
     // Si ya sorteamos todos los numeros
     if (listaNumeroSorteados.length === numeroMaximo) {
-        asignarTextoElemento('p', 'Ya se sortearón todos los numeros psoibles')
+        asignarTextoElemento('p', 'Ya se sortearón todos los numeros posibles')
     } else {
         // Si el numero generado esta incluido en la lista
         // Metodo 'include' para saber si hay un numero en la lista
